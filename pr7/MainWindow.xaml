@@ -1,0 +1,89 @@
+﻿<Window x:Class="pr7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="auto" Width="800">
+    <Window.Resources>
+        <!--<local:Doctor x:Key="doctor"></local:Doctor>-->
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0">
+            <StackPanel x:Name="pegistr">
+            <Label>Регистрация пользователя</Label>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            
+                    
+                           
+                            <Label Content="Фамилия"/>
+                            <Label Content="Имя"/>
+                            <Label Content="Отчество"/>
+                            <Label Content="Специализация"/>
+                            <Label Content="Пароль"/>
+                            <Label Content="Подтверждение пароля"/>
+
+                </StackPanel>
+                        <StackPanel Grid.Column="1">
+                        
+                        <TextBox Margin="5" Text="{Binding Name}"/>
+                        <TextBox Margin="5" Text="{Binding LastName}"/>
+                        <TextBox Margin="5" Text="{Binding MiddleName}"/>
+                            <TextBox Margin="5" Text="{Binding Specialisation}"/>
+                            <TextBox Margin="5" Text="{Binding Password}"/>
+                            <TextBox Margin="5" Text="{Binding Password2}"/>
+
+                </StackPanel>
+                       
+                    </Grid>
+            <Button Content="Зарегистрироваться" Click="Button_Click"/>
+            </StackPanel>
+            <StackPanel x:Name="vhod">
+            <Label>Вход</Label>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+
+
+                    <Label Content="ID"/>
+                    <Label Content="Пароль"/>
+                </StackPanel>
+                    <StackPanel Grid.Column="1">
+                        <TextBox Margin="5" Text="{Binding Id}"/>
+                        <TextBox Margin="5" Text="{Binding Password}"/>
+                    </StackPanel>
+                </Grid>
+            <Button Content="Войти" Click="Button_Click2"/>
+            </StackPanel>
+            <StackPanel x:Name="print">
+                <TextBlock Text="Идентификатор:"/>
+                <TextBlock Text="{Binding Id}"/>
+                <TextBlock Text="Фамилия:"/>
+                <TextBlock Text="{Binding Name}"/>
+                <TextBlock Text="Имя:"/>
+                <TextBlock Text="{Binding LastName}"/>
+                <TextBlock Text="Отчество:"/>
+                <TextBlock Text="{Binding MiddleName}"/>
+                <TextBlock Text="Специализация:"/>
+                <TextBlock Text="{Binding Specialisation}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
