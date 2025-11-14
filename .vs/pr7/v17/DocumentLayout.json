@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E\\pr7\\pr7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|solutionrelative:pr7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E\\pr7\\pr7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|solutionrelative:pr7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E\\pr7\\pr7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|solutionrelative:pr7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E\\pr7\\pr7\\itog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|solutionrelative:pr7\\itog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E\\pr7\\pr7\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|solutionrelative:pr7\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCFC29C9-CC5C-4A8D-808C-F7B69DBA6B73}|pr7\\pr7.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E\\pr7\\pr7\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,18 +35,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Doctor.cs",
-              "RelativeDocumentMoniker": "pr7\\Doctor.cs",
-              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Doctor.cs",
-              "RelativeToolTip": "pr7\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "Itog.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Itog.cs",
+              "RelativeDocumentMoniker": "pr7\\Itog.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Itog.cs",
+              "RelativeToolTip": "pr7\\Itog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:33:36.482Z"
+              "WhenOpened": "2025-11-13T13:45:40.168Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "pr7\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\MainWindow.xaml.cs",
+              "RelativeToolTip": "pr7\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAwwOsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:18:20.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\MainWindow.xaml",
               "RelativeDocumentMoniker": "pr7\\MainWindow.xaml",
@@ -50,16 +71,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "pr7\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\MainWindow.xaml.cs",
-              "RelativeToolTip": "pr7\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwHQAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Doctor.cs",
+              "RelativeDocumentMoniker": "pr7\\Doctor.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Doctor.cs",
+              "RelativeToolTip": "pr7\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T05:18:20.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T07:33:36.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Pacient.cs",
+              "RelativeDocumentMoniker": "pr7\\Pacient.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E\\pr7\\pr7\\Pacient.cs",
+              "RelativeToolTip": "pr7\\Pacient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:16:31.283Z"
             }
           ]
         }

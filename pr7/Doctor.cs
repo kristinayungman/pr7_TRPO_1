@@ -8,13 +8,13 @@ namespace pr7
 {
     public class Doctor
     {
-        public int? Id { get; set; }
-        public string? Name { get; set; }
-        public string? LastName { get; set; }
-        public string? MiddleName { get; set; }
-        public string? Specialisation { get; set; }
-        public int? Password { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public string MiddleName { get; set; }
+        public string Specialisation { get; set; }
+        public int Password { get; set; }
 
-        public int? Password2 { get; set; }
+        public int Password2 { get; set; }
     }
 }

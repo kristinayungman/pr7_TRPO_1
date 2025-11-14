@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pr7"
         mc:Ignorable="d"
-        Title="MainWindow" Height="auto" Width="800">
+        Title="MainWindow" Height="auto" Width="auto">
     <Window.Resources>
         <!--<local:Doctor x:Key="doctor"></local:Doctor>-->
     </Window.Resources>
+    <StackPanel>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"></ColumnDefinition>
@@ -85,5 +86,132 @@
                 <TextBlock Text="{Binding Specialisation}"/>
             </StackPanel>
         </StackPanel>
+
+        <StackPanel Grid.Column="1" Width="300">
+                <StackPanel x:Name="Poisk">
+                    <Label>Поиск пациента по ID</Label>
+                    <TextBox Margin="5" Text="{Binding Id}"/>
+                    <Button Content="Искать" Click="Button_Poisk"></Button>
+                </StackPanel>
+            
+            <StackPanel x:Name="PoiskPrint">
+                <TextBlock Text="Идентификатор:"/>
+                <TextBlock Text="{Binding Id}"/>
+                <TextBlock Text="Фамилия:"/>
+                <TextBlock Text="{Binding Name}"/>
+                <TextBlock Text="Имя:"/>
+                <TextBlock Text="{Binding LastName}"/>
+                <TextBlock Text="Отчество:"/>
+                <TextBlock Text="{Binding MiddleName}"/>
+                <TextBlock Text="Дата Рождения:"/>
+                <TextBlock Text="{Binding Birthday, StringFormat='dd.MM.yyyy'}" />
+                <TextBlock Text="Визит:"/>
+                <TextBlock Text="{Binding LastAppointment}"/>
+                <TextBlock Text="Лечащий врач:"/>
+                <TextBlock Text="{Binding LastDoctor}"/>
+                <TextBlock Text="Диагноз:"/>
+                <TextBlock Text="{Binding Diagnosis}"/>
+                <TextBlock Text="Рекомендации:"/>
+                <TextBlock Text="{Binding Recomendations}"/>
+
+            </StackPanel>
+
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <StackPanel x:Name="dobav">
+                <Label>Добавление пациента</Label>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel>
+
+
+
+                        <Label Content="Фамилия"/>
+                        <Label Content="Имя"/>
+                        <Label Content="Отчество"/>
+                        <Label Margin="0 10 0 0" Content="Дата Рождения"/>
+                        <!--<Label Margin="0 10 0 0" Content="Визит"/>
+                        <Label Content="Лечащий врач"/>
+                        <Label Content="Диагноз"/>
+                        <Label Content="Рекомендации"/>-->
+
+                    </StackPanel>
+                    <StackPanel Grid.Column="1">
+
+                        <TextBox Margin="5" Text="{Binding Name}"/>
+                        <TextBox Margin="5" Text="{Binding LastName}"/>
+                        <TextBox Margin="5" Text="{Binding MiddleName}"/>
+                            <DatePicker Margin="5" SelectedDate="{Binding Birthday}"/>
+                            <!--<DatePicker SelectedDate="{Binding Birthday, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+            SelectedDateChanged="DatePicker_SelectedDateChanged"/>-->
+                            <!--<DatePicker Margin="5" Text="{Binding LastAppointment }"/>
+                        <TextBox Margin="5" Text="{Binding LastDoctor}"/>
+                        <TextBox Margin="5" Text="{Binding Diagnosis}"/>
+                        <TextBox Margin="5" Text="{Binding Recomendations}"/>-->
+
+                    </StackPanel>
+
+                </Grid>
+                <Button Content="Добавить" Click="Button_Click3"/>
+
+            </StackPanel>
+            <StackPanel>
+                <Label>Изменение информации о пациенте</Label>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel>
+
+
+
+                        <Label Content="Фамилия"/>
+                        <Label Content="Имя"/>
+                        <Label Content="Отчество"/>
+                        <Label Margin="0 10 0 0" Content="Дата Рождения"/>
+                        <Label Margin="0 10 0 0" Content="Визит"/>
+                        <Label Content="Лечащий врач"/>
+                        <Label Content="Диагноз"/>
+                        <Label Content="Рекомендации"/>
+
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" x:Name="izm">
+
+                        <TextBox Margin="5" Text="{Binding Name}"/>
+                        <TextBox Margin="5" Text="{Binding LastName}"/>
+                        <TextBox Margin="5" Text="{Binding MiddleName}"/>
+                        <DatePicker Margin="5" Text="{Binding Birthday}"/>
+                            <DatePicker Margin="5" Text="{Binding LastAppointment }"/>
+                        <TextBox Margin="5" Text="{Binding LastDoctor}"/>
+                        <TextBox Margin="5" Text="{Binding Diagnosis}"/>
+                        <TextBox Margin="5" Text="{Binding Recomendations}"/>
+
+                    </StackPanel>
+                </Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 5 0 0">
+                    <Button Content="Изменить" Click="Button_Izm" Width="150" Height="30" Margin="5"/>
+                    <Button Content="Сбросить" Click="Button_Clear" Width="150" Height="30" Margin="5"/>
+                </StackPanel>
+            </StackPanel>
+
+
+        </StackPanel>
+
     </Grid>
+        <StackPanel x:Name="file">
+            <Label>Информация о состоянии системы:</Label>
+            <TextBlock Text="Колличество зарегистрированных:"/>
+            <TextBlock Text="{Binding IdVse}"/>
+            <TextBlock Text="Доктора:"/>
+            <TextBlock Text="{Binding IdDoc}"/>
+            <TextBlock Text="Пациенты:"/>
+            <TextBlock Text="{Binding IdPac}"/>
+        </StackPanel>
+    </StackPanel>
 </Window>
